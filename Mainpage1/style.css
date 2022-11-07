@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;;
+}
+
+body{
+    height: 100vh;
+    background-image: url("./bg.jpg");
+    /* background-color: #FFFFFA; */
+}
+
+/*! NAV */
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+nav .nav-bar{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-bar .name a{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-bar .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-links li{
+    margin: 0 5px;
+    list-style: none;
+}
+
+.nav-links li a{
+    position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links .reg {
+    color: black;
+    font-weight: 500;
+    background-color: #ECEC7E;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/*! BODY */
+
+
+
+.content {
+    margin-top: 200px;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+}
+
+/*? FIRST DIV  */
+.upper{
+    display: flex;
+}
+
+.star {
+    margin-right: 15px;
+}
+
+.header {
+    margin-bottom: 15px;
+}
+
+.firstDiv {
+    padding: 20px;
+    width: 40%;
+    margin-left:20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.divBtn {
+    margin-top: 50px;
+}
+
+.divButton {
+    border: 0;
+    color: black;
+    font-weight: 500;
+    background-color: #ECEC7E;
+    border-radius: 4px;
+    padding: 1.5rem 8rem;
+    cursor: pointer;
+}
+
+.para {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+
+/*? SECOND DIV  */
+.secondDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.mainImg{
+    width: 70%;
+}
